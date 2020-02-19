@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f6eba8daead9e87802e7a1b3f56dc68f",
+    "content-hash": "e752b4127b3bc1668f1d1779e127d16a",
     "packages": [
         {
             "name": "clue/stream-filter",
@@ -704,6 +704,34 @@
                 "markdown"
             ],
             "time": "2018-01-23T15:34:53+00:00"
+        },
+        {
+            "name": "knpuniversity/lorem-ipsum-bundle",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "../LoremIpsumBundle",
+                "reference": "34a006fd57579f1eaf548501bb93396c85e0cc28"
+            },
+            "require": {
+                "php": "^7.2"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "KnpU\\LoremIpsumBundle\\": "src"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sboborykin",
+                    "email": "sergey@boborykin.ru"
+                }
+            ],
+            "description": "lorem-ipsum-bundle"
         },
         {
             "name": "michelf/php-markdown",
@@ -2702,6 +2730,12 @@
                 "url": "https://github.com/symfony/lts.git",
                 "reference": "c1affae45b78aee036effa1759237e7fa96d4af2"
             },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/lts/zipball/c1affae45b78aee036effa1759237e7fa96d4af2",
+                "reference": "c1affae45b78aee036effa1759237e7fa96d4af2",
+                "shasum": ""
+            },
             "conflict": {
                 "symfony/asset": ">=5",
                 "symfony/browser-kit": ">=5",
@@ -4303,6 +4337,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "knpuniversity/lorem-ipsum-bundle": 20,
         "symfony/lts": 20
     },
     "prefer-stable": false,
