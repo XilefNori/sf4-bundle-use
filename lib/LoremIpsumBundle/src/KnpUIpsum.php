@@ -15,7 +15,7 @@ class KnpUIpsum
 
     private $wordProvider;
 
-    public function __construct(KnpUWordProvider $knpWordProvider, bool $unicornsAreReal = true, $minSunshine = 3)
+    public function __construct(WordProviderInterface $knpWordProvider, bool $unicornsAreReal = true, $minSunshine = 3)
     {
         $this->unicornsAreReal = $unicornsAreReal;
         $this->minSunshine     = $minSunshine;
