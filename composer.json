@@ -74,7 +74,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "../LoremIpsumBundle"
+            "url": "../sf4-bundle"
         }
     ]
 }
